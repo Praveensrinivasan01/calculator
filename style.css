@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;  
+} 
+    h1{
+    background-color: white;
+    color:black;
+    width:300px;
+    text-align: center;
+    position: relative;
+    LEFT:500PX;
+    border-radius: 5px;
+
+}
+
+#parent1,#parent2,#parent3,#parent4,#parent5{
+   
+    
+  
+        display:grid;
+        display:flex;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    gap 5px 5px;
+
+  
+   
+
+}
+.child{
+    background-color: yellow;
+    font-size: x-large;
+    width: 50px;
+    gap 10px 5px;
+}
+fieldset{
+    background-color: rgb(156, 102, 55);
+    position: relative;
+    left: 550px;
+    width:100px ;
+}
+p{
+    background-color: white;
+    color: white;
+    height: 5opx;
+}
+
+
+#div8,#div13,#div17,#div21,#div18,#div20,#div21{
+    background-color: red;
+}
